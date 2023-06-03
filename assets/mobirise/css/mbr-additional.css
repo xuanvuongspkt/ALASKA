@@ -4799,8 +4799,14 @@ a {
 .cid-sFzIA7KGYz .mbr-section-title {
   color: #232323;
 }
-.cid-tFFsSr1yjU .navbar-dropdown {
-  position: relative !important;
+.cid-tFFsSr1yjU {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-tFFsSr1yjU nav.navbar {
+  position: fixed;
 }
 .cid-tFFsSr1yjU .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -5138,6 +5144,7 @@ a {
 }
 .cid-tFFsSr1yjU .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-tFFsSr1yjU a.nav-link {
   display: flex;
