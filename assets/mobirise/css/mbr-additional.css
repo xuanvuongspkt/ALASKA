@@ -6540,7 +6540,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(255, 255, 255, 0.5);
+  background: #ffffff;
 }
 .cid-uqN61B20qg .navbar.opened {
   transition: all 0.3s;
